@@ -4,10 +4,11 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build",
+    "build": "ng build --prod",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
+    "deploy": "firebase deploy --only hosting:avials-app-public",
     "start:ssr": "npm run build:ssr && npm run serve:ssr",
     "dev:ssr": "ng run storefront:serve-ssr",
     "serve:ssr": "node dist/storefront/server/main.js",

@@ -5,7 +5,7 @@
   },
   "hosting": {
     "site": "avials-app-public",
-    "public": "dist",
+    "public": "dist/storefront/browser",
     "ignore": [
       "firebase.json",
       "**/.*",

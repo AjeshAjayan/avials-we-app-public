@@ -17,9 +17,9 @@ function delayResponse<T>(input: Observable<T>): Observable<T> {
 }
 
 export function accountSignIn(email: string, password: string): Observable<User> {
-    if (email === 'red-parts@example.com' && password === '123456') {
+    if (email === 'avials@example.com' && password === '123456') {
         const user: User = {
-            email: 'red-parts@example.com',
+            email: 'avials@example.com',
             phone: '38 972 588-42-36',
             firstName: 'Ryan',
             lastName: 'Ford',
@@ -37,7 +37,7 @@ export function accountSignUp(email: string, password: string): Observable<User>
         return delayResponse(throwError(error('AUTH_INVALID_EMAIL')));
     }
 
-    if (email === 'red-parts@example.com') {
+    if (email === 'avials@example.com') {
         return delayResponse(throwError(error('AUTH_EMAIL_ALREADY_IN_USE')));
     }
 

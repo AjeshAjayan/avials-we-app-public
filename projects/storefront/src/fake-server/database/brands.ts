@@ -3,37 +3,37 @@ import { Brand } from '../../app/interfaces/brand';
 export const brands: Brand[] = [
     {
         slug: 'aim-parts',
-        name: 'AimParts',
+        name: 'Food, Agriculture & Farming',
         country: 'DE',
         image: 'assets/images/brands/brand-1.png',
     },
     {
         slug: 'wind-engine',
-        name: 'WindEngine',
+        name: 'Transportation & Logistics',
         country: 'DE',
         image: 'assets/images/brands/brand-2.png',
     },
     {
         slug: 'turbo-electric',
-        name: 'TurboElectric',
+        name: 'Apparel, Clothing & Garments',
         country: 'DE',
         image: 'assets/images/brands/brand-3.png',
     },
     {
         slug: 'start-one',
-        name: 'StartOne',
+        name: 'Machinery & Equipment',
         country: 'DE',
         image: 'assets/images/brands/brand-4.png',
     },
     {
         slug: 'brandix',
-        name: 'Brandix',
+        name: 'Products, Spares',
         country: 'DE',
         image: 'assets/images/brands/brand-5.png',
     },
     {
         slug: 'abs-brand',
-        name: 'ABS-Brand',
+        name: 'Electronics & Electrical',
         country: 'DE',
         image: 'assets/images/brands/brand-6.png',
     },

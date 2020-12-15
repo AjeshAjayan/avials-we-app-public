@@ -62,7 +62,7 @@ function flatTree<T extends Category>(categories: T[]): T[] {
 
 const shopCategoriesDef: CategoryDef[] = [
     {
-        name: 'Headlights & Lighting',
+        name: 'Food, Agriculture & Farming',
         slug: 'headlights-lighting',
         image: 'assets/images/categories/category-1.jpg',
         items: 131,
@@ -78,7 +78,7 @@ const shopCategoriesDef: CategoryDef[] = [
         ],
     },
     {
-        name: 'Fuel System',
+        name: 'Transportation & Logistics',
         slug: 'fuel-system',
         image: 'assets/images/categories/category-2.jpg',
         items: 356,
@@ -91,7 +91,7 @@ const shopCategoriesDef: CategoryDef[] = [
         ],
     },
     {
-        name: 'Body Parts',
+        name: ' Contractors,Employees, Material & Equipment',
         slug: 'body-parts',
         image: 'assets/images/categories/category-3.jpg',
         items: 54,
@@ -104,14 +104,14 @@ const shopCategoriesDef: CategoryDef[] = [
         ],
     },
     {
-        name: 'Interior Parts',
+        name: 'Services, Goods & Supplies',
         slug: 'interior-parts',
         image: 'assets/images/categories/category-4.jpg',
         items: 274,
-        children: [
-            {name: 'Dashboards', slug: 'dashboards'},
-            {name: 'Seat Covers', slug: 'seat-covers'},
-            {name: 'Floor Mats', slug: 'floor-mats'},
+        children: [ 
+            {name: 'Medical', slug: 'floor-mats'},
+            {name: 'Electronics', slug: 'dashboards'},
+            {name: 'Electrical', slug: 'seat-covers'},
             {name: 'Sun Shades', slug: 'sun-shades'},
             {name: 'Visors', slug: 'visors'},
             {name: 'Car Covers', slug: 'car-covers'},
@@ -119,7 +119,7 @@ const shopCategoriesDef: CategoryDef[] = [
         ],
     },
     {
-        name: 'Tires & Wheels',
+        name: 'Apparel, Clothing & Garments',
         slug: 'tires-wheels',
         image: 'assets/images/categories/category-5.jpg',
         items: 508,
@@ -134,17 +134,17 @@ const shopCategoriesDef: CategoryDef[] = [
         ],
     },
     {
-        name: 'Engine & Drivetrain',
+        name: 'Education- Coaching & Consulting',
         slug: 'engine-drivetrain',
         image: 'assets/images/categories/category-6.jpg',
         items: 95,
         children: [
-            {name: 'Timing Belts', slug: 'timing-belts'},
-            {name: 'Spark Plugs', slug: 'spark-plugs'},
-            {name: 'Oil Pans', slug: 'oil-pans'},
-            {name: 'Engine Gaskets', slug: 'engine-gaskets'},
-            {name: 'Oil Filters', slug: 'oil-filters'},
-            {name: 'Engine Mounts', slug: 'engine-mounts'},
+            {name: 'Teacher, Trainer, Instructor, Lecturer', slug: 'timing-belts'},
+            {name: 'Courses', slug: 'spark-plugs'},
+            {name: 'Institute', slug: 'oil-pans'},
+            {name: 'Home, Online & Part Time Tutors', slug: 'engine-gaskets'},
+            {name: 'Sport & Art', slug: 'oil-filters'},
+            {name: 'Civil', slug: 'engine-mounts'},
             {name: 'Accessories', slug: 'engine-drivetrain-accessories'},
         ],
     },

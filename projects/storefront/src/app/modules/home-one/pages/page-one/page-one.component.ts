@@ -38,6 +38,8 @@ interface DeferredData<T> {
 export class PageOneComponent implements OnInit {
     featuredProducts: ProductsCarouselData;
 
+    popularCategories$: Observable<ShopCategory[]> = of([]);
+
     blockSale: DeferredData<Product[]>;
 
     blockZones: BlockZoneData[] = [];
@@ -58,6 +60,18 @@ export class PageOneComponent implements OnInit {
     ) { }
 
     ngOnInit(): void {
+        this.popularCategories$ = this.shopApi.getCategories({
+            slugs: [
+                'headlights-lighting',
+                'fuel-system',
+                'body-parts',
+                'interior-parts',
+                'tires-wheels',
+                'engine-drivetrain',
+            ],
+            depth: 1,
+        });
+
         this.featuredProducts = this.makeCarouselData([
             {
                 label: 'All',

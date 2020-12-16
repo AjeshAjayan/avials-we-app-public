@@ -1,13 +1,14 @@
 {
-  "name": "red-parts",
+  "name": "avials",
   "version": "1.2.0",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build",
+    "build": "npm i && ng build --prod",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
+    "deploy": "firebase deploy --only hosting:avials-app-public",
     "start:ssr": "npm run build:ssr && npm run serve:ssr",
     "dev:ssr": "ng run storefront:serve-ssr",
     "serve:ssr": "node dist/storefront/server/main.js",
@@ -43,7 +44,7 @@
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "~0.1100.2",
-    "@angular/cli": "~11.0.2",
+    "@angular/cli": "^11.0.4",
     "@angular/compiler-cli": "~11.0.1",
     "@angular/language-service": "~11.0.1",
     "@nguniversal/builders": "^11.0.0",

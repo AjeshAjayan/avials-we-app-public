@@ -1,99 +1,105 @@
 import { Brand } from '../../app/interfaces/brand';
 
 export const brands: Brand[] = [
+   
+    {
+        slug: 'mission-51',
+        name: 'Shops- Buy / Sell / Rent',
+        country: 'DE',
+        image: 'assets/images/brands/brand-4.png',
+    },
     {
         slug: 'aim-parts',
-        name: 'Food, Agriculture & Farming',
+        name: 'Agriculture, Food & Natural Resources', 
+        country: 'DE',
+        image: 'assets/images/brands/brand-0.png',
+    },
+    {
+        slug: 'aim-parts',
+        name: 'Hospitality , Events, Tourism',
         country: 'DE',
         image: 'assets/images/brands/brand-1.png',
+    },  
+    {
+        slug: 'wind-engine',
+        name: 'Rickshaw,Taxi, Bus, Truck, Drivers',
+        country: 'DE',
+        image: 'assets/images/brands/brand-3.png',
+    },  
+    {
+        slug: 'wind-engine',
+        name: 'Architecture & Construction',
+        country: 'DE',
+        image: 'assets/images/brands/brand-2.png',
+    },
+   
+    {
+        slug: 'red-gate',
+        name: 'Human Services',
+        country: 'DE',
+        image: 'assets/images/brands/brand-13.png',
+    },
+    {
+        slug: 'brandix',
+        name: 'Education- Coaching & Consulting ',
+        country: 'DE',
+        image: 'assets/images/brands/brand-5.png',
     },
     {
         slug: 'wind-engine',
-        name: 'Transportation & Logistics',
+        name: 'Lodging, Transportation & Logistics',
         country: 'DE',
-        image: 'assets/images/brands/brand-2.png',
+        image: 'assets/images/brands/brand-8.png',
     },
     {
         slug: 'turbo-electric',
         name: 'Apparel, Clothing & Garments',
         country: 'DE',
-        image: 'assets/images/brands/brand-3.png',
-    },
-    {
-        slug: 'start-one',
-        name: 'Machinery & Equipment',
-        country: 'DE',
-        image: 'assets/images/brands/brand-4.png',
-    },
-    {
-        slug: 'brandix',
-        name: 'Products, Spares',
-        country: 'DE',
-        image: 'assets/images/brands/brand-5.png',
-    },
-    {
-        slug: 'abs-brand',
-        name: 'Electronics & Electrical',
-        country: 'DE',
         image: 'assets/images/brands/brand-6.png',
     },
     {
-        slug: 'great-circle',
-        name: 'GreatCircle',
-        country: 'DE',
-        image: 'assets/images/brands/brand-7.png',
-    },
-    {
-        slug: 'just-romb',
-        name: 'JustRomb',
-        country: 'DE',
-        image: 'assets/images/brands/brand-8.png',
-    },
-    {
-        slug: 'fast-wheels',
-        name: 'FastWheels',
-        country: 'DE',
-        image: 'assets/images/brands/brand-9.png',
-    },
-    {
-        slug: 'stroyka-x',
-        name: 'Stroyka-X',
-        country: 'DE',
-        image: 'assets/images/brands/brand-10.png',
-    },
-    {
-        slug: 'mission-51',
-        name: 'Mission-51',
-        country: 'DE',
-        image: 'assets/images/brands/brand-11.png',
-    },
-    {
-        slug: 'fuel-corp',
-        name: 'FuelCorp',
+        slug: 'start-one',
+        name: 'Engineering  Finance, Science , Technology & Communications',
         country: 'DE',
         image: 'assets/images/brands/brand-12.png',
     },
+ 
     {
-        slug: 'red-gate',
-        name: 'RedGate',
+        slug: 'abs-brand',
+        name: 'Workshop, Parts & Spares (Automobile, Electrical & Electronics)', 
         country: 'DE',
-        image: 'assets/images/brands/brand-13.png',
+        image: 'assets/images/brands/brand-15.png',
+    }, 
+    {
+        slug: 'stroyka-x',
+        name: 'HOUSEHOLD STAFF, Baby and Mother Care at Home',
+        country: 'DE',
+        image: 'assets/images/brands/brand-10.png',
     },
+
+    {
+        slug: 'fuel-corp',
+        name: 'Manufacturing, Entrepreneurs, Business Management & Administration',
+        country: 'DE',
+        image: 'assets/images/brands/brand-11.png',
+    },
+ 
+    // Beauty Spas
     {
         slug: 'blocks',
-        name: 'Blocks',
+        name: 'Health & Beauty',
         country: 'DE',
         image: 'assets/images/brands/brand-14.png',
     },
     {
         slug: 'blackbox',
-        name: 'BlackBox',
+        name: 'Ambulance, Hospital, Doctor, Nurse, Blood ',
         country: 'DE',
-        image: 'assets/images/brands/brand-15.png',
+        image: 'assets/images/brands/brand-9.png',
     },
     {
         slug: 'square-garage',
-        name: 'SquareGarage',
+        name: 'Real Estate - Buy / Sell / Rent / Lease Properties',
         country: 'DE',
         image: 'assets/images/brands/brand-16.png',
     },

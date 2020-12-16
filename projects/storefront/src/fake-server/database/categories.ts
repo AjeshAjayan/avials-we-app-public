@@ -62,19 +62,17 @@ function flatTree<T extends Category>(categories: T[]): T[] {
 
 const shopCategoriesDef: CategoryDef[] = [
     {
-        name: 'Food, Agriculture & Farming',
+        name: 'Agriculture, Food & Beverages',
         slug: 'headlights-lighting',
         image: 'assets/images/categories/category-1.jpg',
         items: 131,
         children: [
-            {name: 'Turn Signals', slug: 'turn-signals'},
-            {name: 'Fog Lights', slug: 'fog-lights'},
-            {name: 'Headlights', slug: 'headlights'},
-            {name: 'Switches & Relays', slug: 'switches-relays'},
-            {name: 'Tail Lights', slug: 'tail-lights'},
-            {name: 'Corner Lights', slug: 'corner-lights'},
-            {name: 'Off-Road Lighting', slug: 'off-road-lighting'},
-            {name: 'Lighting Accessories', slug: 'lighting-accessories'},
+            {name: 'Cereals & Food Grains', slug: 'turn-signals'},
+            {name: 'Milk & Dairy Products', slug: 'fog-lights'}, 
+            {name: 'Meat & Poultry Food', slug: 'headlights'}, 
+            {name: 'Fresh, Dried & Preserved Vegetables', slug: 'switches-relays'},
+            {name: 'Cooking Spices and Masala', slug: 'tail-lights'},
+            {name: 'Edible Oil & Allied Products', slug: 'corner-lights'}, 
         ],
     },
     {
@@ -84,14 +82,14 @@ const shopCategoriesDef: CategoryDef[] = [
         items: 356,
         children: [
             {name: 'Fuel Pumps', slug: 'fuel-pumps'},
-            {name: 'Motor Oil', slug: 'motor-oil'},
-            {name: 'Gas Caps', slug: 'gas-caps'},
-            {name: 'Fuel Injector', slug: 'fuel-injector'},
+            {name: 'Domestic Relocation Service', slug: 'motor-oil'},
+            {name: 'Truck Rentals', slug: 'gas-caps'},
+            {name: 'Logistics Service', slug: 'fuel-injector'},
             {name: 'Control Motor', slug: 'control-motor'},
         ],
     },
     {
-        name: ' Contractors,Employees, Material & Equipment',
+        name: 'Employees, Contractors & Services',
         slug: 'body-parts',
         image: 'assets/images/categories/category-3.jpg',
         items: 54,
@@ -104,7 +102,7 @@ const shopCategoriesDef: CategoryDef[] = [
         ],
     },
     {
-        name: 'Services, Goods & Supplies',
+        name: 'Material, Equipment, Goods & Supplies',
         slug: 'interior-parts',
         image: 'assets/images/categories/category-4.jpg',
         items: 274,

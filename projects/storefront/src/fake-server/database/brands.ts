@@ -35,7 +35,7 @@ export const brands: Brand[] = [
    
     {
         slug: 'red-gate',
-        name: 'Human Services',
+        name: 'Human Services- Employees, Contractors & Services',
         country: 'DE',
         image: 'assets/images/brands/brand-13.png',
     },
@@ -87,7 +87,7 @@ export const brands: Brand[] = [
     // Beauty Spas
     {
         slug: 'blocks',
-        name: 'Health & Beauty',
+        name: 'Health, Beauty, Arts, Sports',
         country: 'DE',
         image: 'assets/images/brands/brand-14.png',
     },

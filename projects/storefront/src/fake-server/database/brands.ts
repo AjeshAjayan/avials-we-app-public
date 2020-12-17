@@ -4,7 +4,7 @@ export const brands: Brand[] = [
    
     {
         slug: 'mission-51',
-        name: 'Shops- Buy / Sell / Rent',
+        name: 'Shopping & Retail',
         country: 'DE',
         image: 'assets/images/brands/brand-4.png',
     },
@@ -16,7 +16,7 @@ export const brands: Brand[] = [
     },
     {
         slug: 'aim-parts',
-        name: 'Hospitality , Events, Tourism',
+        name: 'Hotel, Lodging, Events, Tourism',
         country: 'DE',
         image: 'assets/images/brands/brand-1.png',
     },  
@@ -59,7 +59,7 @@ export const brands: Brand[] = [
     },
     {
         slug: 'start-one',
-        name: 'Engineering  Finance, Science , Technology & Communications',
+        name: 'Science, Technology, Engineering & Communications',
         country: 'DE',
         image: 'assets/images/brands/brand-12.png',
     },
@@ -72,19 +72,18 @@ export const brands: Brand[] = [
     }, 
     {
         slug: 'stroyka-x',
-        name: 'HOUSEHOLD STAFF, Baby and Mother Care at Home',
+        name: 'HOUSEHOLD STAFF,Local Service',
         country: 'DE',
         image: 'assets/images/brands/brand-10.png',
     },
 
     {
         slug: 'fuel-corp',
-        name: 'Manufacturing, Entrepreneurs, Business Management & Administration',
+        name: 'Commercial & Industrial',
         country: 'DE',
         image: 'assets/images/brands/brand-11.png',
     },
- 
-    // Beauty Spas
+  
     {
         slug: 'blocks',
         name: 'Health, Beauty, Arts, Sports',
@@ -99,7 +98,7 @@ export const brands: Brand[] = [
     },
     {
         slug: 'square-garage',
-        name: 'Real Estate - Buy / Sell / Rent / Lease Properties',
+        name: 'Real Estate',
         country: 'DE',
         image: 'assets/images/brands/brand-16.png',
     },

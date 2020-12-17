@@ -170,7 +170,7 @@
       name:         accent,
       // colors
       main:         #ffdf40,
-      opposite:     #262626,
+      opposite:     #121622,
       opposite-alt: #734c3f,
       muted:        #99752e,
       // states
@@ -206,7 +206,7 @@
       name:         light,
       // colors
       main:         #fff,
-      opposite:     #262626,
+      opposite:     #121622,
       opposite-alt: #6c757d,
       muted:        #999,
       // states
@@ -356,7 +356,7 @@
       $search-spaceship-input-scheme: map_merge((
          // normal
          normal-bg-color:          rgba(#f0f0f0, 0),
-         normal-font-color:        #262626,
+         normal-font-color:        #121622,
          normal-placeholder-color: #999,
          // hover
          hover-bg-color:           #f0f0f0,
@@ -384,7 +384,7 @@
          // normal
          normal-bg-color:          #ededed,
          normal-border-color:      #ededed,
-         normal-font-color:        #262626,
+         normal-font-color:        #121622,
          normal-placeholder-color: #6c757d,
          normal-icon-scheme: (
             normal-font-color: #b2b2b2,
@@ -402,7 +402,7 @@
       $search-classic-button-scheme: map_merge((
          // normal
          normal-bg-color:    map_get($accent-scheme, main),
-         normal-font-color:  #262626,
+         normal-font-color:  #121622,
          normal-icon-color:  rgba(#000, .75),
          normal-arrow-color: rgba(#000, .35),
          // hover
@@ -449,7 +449,7 @@
          // normal
          normal-bg-color:          #f0f0f0,
          normal-border-color:      #f0f0f0,
-         normal-font-color:        #262626,
+         normal-font-color:        #121622,
          normal-placeholder-color: #6c757d,
          normal-icon-scheme: (
             normal-font-color: #b2b2b2,
@@ -470,7 +470,7 @@
          // normal
          normal-bg-color:          #fff,
          normal-border-color:      #ebebeb,
-         normal-font-color:        #262626,
+         normal-font-color:        #121622,
          normal-placeholder-color: #6c757d,
          normal-icon-scheme: (
             normal-font-color: #b2b2b2,
@@ -485,7 +485,7 @@
       $mobile-search-vehicle-button-scheme: map_merge((
          // normal
          normal-bg-color:    map_get($accent-scheme, main),
-         normal-font-color:  #262626,
+         normal-font-color:  #121622,
          normal-icon-color:  rgba(#000, .75),
          // hover
          hover-bg-color:     #ffd226,
@@ -678,10 +678,10 @@
       $btn-dark-scheme: () !default;
       $btn-dark-scheme: map_merge($btn-primary-scheme, map_merge((
          // hover
-         hover-bg-color:    #545454,
+         hover-bg-color:   #189AB4,
          hover-font-color:  #fff,
          // active
-         active-bg-color:   #4c4c4c,
+         active-bg-color:   #05445E,
          active-font-color: #fff,
       ), $btn-dark-scheme));
 
@@ -696,7 +696,7 @@
          // normal
          normal-bg-color:          #ebebeb,
          normal-border-color:      #ebebeb,
-         normal-font-color:        #262626,
+         normal-font-color:        #121622,
          normal-placeholder-color: #6c757d,
          // hover
          hover-border-color:       #d9d9d9,
@@ -889,13 +889,13 @@
       $pagination-scheme: map_merge((
          // normal
          normal-bg-color:     #f0f0f0,
-         normal-font-color:   #262626,
+         normal-font-color:   #121622,
          // hover
          hover-bg-color:      #e5e5e5,
-         hover-font-color:    #262626,
+         hover-font-color:    #121622,
          // active
          active-bg-color:     #e0e0e0,
-         active-font-color:   #262626,
+         active-font-color:   #121622,
          // current
          current-bg-color:    map_get($theme-scheme, main),
          current-font-color:  map_get($theme-scheme, opposite),
@@ -1065,7 +1065,7 @@
    // ----------------------------------------
       $post-header-category-link-scheme:     $theme-scheme                 !default;
       // overlay
-      $post-header-overlay-bg-color:         #262626                       !default;
+      $post-header-overlay-bg-color:         #121622                       !default;
       $post-header-overlay-font-color:       #fff                          !default;
       $post-header-overlay-font-shadow:      0 1px 5px rgba(#000, .25)     !default;
       $post-header-overlay-link-hover-color: map_get($accent-scheme, main) !default;
@@ -1216,7 +1216,7 @@
       $block-finder-font-shadow:                0 1px 3px rgba(#000, .2) !default;
       // select
       $block-finder-select-bg-color:            #fff                     !default;
-      $block-finder-select-font-color:          #262626                  !default;
+      $block-finder-select-font-color:          #121622                  !default;
       $block-finder-select-arrow-color:         #4d4d4d                  !default;
       $block-finder-select-disabled-font-color: #999                     !default;
 
@@ -1242,7 +1242,7 @@
    // ----------------------------------------
    // -- .block-sale
    // ----------------------------------------
-      $block-sale-overlay-bg:        rgba(#262626, .8)            !default;
+      $block-sale-overlay-bg:        rgba(#121622, .8)            !default;
       // dots
       $block-sale-dot-normal-color:  rgba(#fff, .3)               !default;
       $block-sale-dot-hover-color:   rgba(#fff, .5)               !default;

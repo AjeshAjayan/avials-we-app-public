@@ -158,6 +158,7 @@ const shopCategoriesDef: CategoryDef[] = [
         image: 'assets/images/categories/category-8.jpg',
         items: 106,
     },
+    
 ];
 
 const blogCategoriesDef: CategoryDef[] = [

@@ -47,13 +47,19 @@ import { PageNotFoundComponent } from './pages/page-not-found/page-not-found.com
         // modules
         AppRoutingModule,
         CurrencyModule.config({
-            default: 'USD',
-            currencies: [
+            default: 'INR',
+            currencies: [ 
                 {
                     symbol: '$',
                     name: 'US Dollar',
                     code: 'USD',
                     rate: 1,
+                },
+                {
+                    symbol: '₹',
+                    name: 'Indian Rupee',
+                    code: 'INR',
+                    rate: 73.99,
                 },
                 {
                     symbol: '£',
@@ -98,17 +104,77 @@ import { PageNotFoundComponent } from './pages/page-not-found/page-not-found.com
                     direction: 'ltr',
                 },
                 {
-                    code: 'ru',
-                    name: 'Russian',
-                    image: 'assets/images/languages/language-2.png',
+                    code: 'ml',
+                    name: 'മലയാളം',
+                    image: 'assets/images/languages/language-1.png',
                     direction: 'ltr',
                 },
-                {
-                    code: 'en-RTL',
-                    name: 'RTL',
-                    image: 'assets/images/languages/language-3.png',
-                    direction: 'rtl',
+                { 
+                    code: 'ta',
+                    name: 'தமிழ்',
+                    image: 'assets/images/languages/language-1.png',
+                    direction: 'ltr',
                 },
+                { 
+                    code: 'te',
+                    name: 'తెలుగు',
+                    image: 'assets/images/languages/language-1.png',
+                    direction: 'ltr',
+                }, 
+                { 
+                    code: 'kn',
+                    name: 'ಕನ್ನಡ',
+                    image: 'assets/images/languages/language-1.png',
+                    direction: 'ltr',
+                }, 
+                { 
+                    code: 'hi',
+                    name: 'हिन्दी',
+                    image: 'assets/images/languages/language-1.png',
+                    direction: 'ltr',
+                },
+                { 
+                    code: 'bn',
+                    name: 'বাংলা',
+                    image: 'assets/images/languages/language-1.png',
+                    direction: 'ltr',
+                },
+                { 
+                    code: 'mr',
+                    name: 'मराठी',
+                    image: 'assets/images/languages/language-1.png',
+                    direction: 'ltr',
+                },
+                { 
+                    code: 'ur',
+                    name: 'اردو',
+                    image: 'assets/images/languages/language-1.png',
+                    direction: 'ltr',
+                },
+                { 
+                    code: 'gu',
+                    name: 'ગુજરાતી',
+                    image: 'assets/images/languages/language-1.png',
+                    direction: 'ltr',
+                },
+                { 
+                    code: 'pa',
+                    name: 'ਪੰਜਾਬੀ',
+                    image: 'assets/images/languages/language-1.png',
+                    direction: 'ltr',
+                }, 
+                // {
+                //     code: 'ru',
+                //     name: 'Russian',
+                //     image: 'assets/images/languages/language-2.png',
+                //     direction: 'ltr',
+                // },
+                // {
+                //     code: 'en-RTL',
+                //     name: 'RTL',
+                //     image: 'assets/images/languages/language-3.png',
+                //     direction: 'rtl',
+                // },
             ],
         }),
         MobileModule,

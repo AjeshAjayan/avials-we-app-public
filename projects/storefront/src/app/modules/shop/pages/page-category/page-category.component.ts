@@ -11,6 +11,7 @@ import { Brand } from '../../../../interfaces/brand';
 import { TranslateService } from '@ngx-translate/core';
 import { LanguageService } from '../../../language/services/language.service';
 import { getCategoryPath } from '../../../../functions/utils';
+import { getShopCatagories } from 'projects/storefront/src/fake-server/endpoints/shop-sub-catagory';
 
 interface AsyncData<T> {
     data$: Observable<T>;
@@ -54,6 +55,9 @@ export interface PageCategoryData {
     styleUrls: ['./page-category.component.scss'],
 })
 export class PageCategoryComponent implements OnInit {
+
+    mainCataId: number;
+
     layout: PageCategoryLayout;
 
     sidebarPosition: PageCategorySidebarPosition;
@@ -96,10 +100,14 @@ export class PageCategoryComponent implements OnInit {
             map((data: PageCategoryData) => data.category),
         );
 
-        this.children$ = this.route.data.pipe(
-            map((data: PageCategoryData) => data.category ? data.category.children : data.children),
-            map(categories => categories || []),
+        this.route.paramMap.subscribe(
+            param => {
+                this.mainCataId = parseInt(param.get('id'))
+                this.children$ = getShopCatagories(this.mainCataId);
+            }
         );
+        
+        //this.children$ = this.shop 
 
         this.pageTitle$ = this.category$.pipe(
             mergeMap(category => category ? of(category.name) : this.translate.stream('HEADER_SHOP')),

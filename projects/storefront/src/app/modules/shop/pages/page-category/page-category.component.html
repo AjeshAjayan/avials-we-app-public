@@ -1,5 +1,5 @@
 <app-block-header
-    [pageTitle]="pageTitle$|async"
+    [pageTitle]="(children$ | async)[0].mainCategoryName"
     [breadcrumb]="breadcrumbs$|async"
 ></app-block-header>
 
@@ -36,7 +36,7 @@
                                                     <img class="image__tag" [src]="subcategory.image" [alt]="subcategory.name">
                                                 </div>
                                             </div>
-                                            <div class="categories-list__item-name">{{ subcategory.name }}</div>
+                                            <div class="categories-list__item-name">{{ subcategory.name }} </div>
                                         </a>
                                         <div class="categories-list__item-products" *ngIf="subcategory.items">
                                             {{ 'TEXT_PRODUCTS_COUNT'|translate:{count: subcategory.items} }}

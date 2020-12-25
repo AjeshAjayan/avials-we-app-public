@@ -15,6 +15,8 @@ export interface BaseCategory {
 export type ShopCategoryLayout = 'categories' | 'products';
 
 export interface ShopCategory extends BaseCategory {
+    mainCategoryId?: number;
+    mainCategoryName?: string;
     type: 'shop';
     layout: ShopCategoryLayout;
 }

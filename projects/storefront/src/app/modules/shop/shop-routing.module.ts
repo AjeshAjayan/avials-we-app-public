@@ -26,7 +26,7 @@ const routes: Routes = [
         redirectTo: 'category',
     },
     {
-        path: 'category',
+        path: 'category/:id',
         component: PageCategoryComponent,
         data: {
             layout: 'columns-4-sidebar',
